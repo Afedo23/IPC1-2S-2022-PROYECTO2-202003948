@@ -47,6 +47,27 @@
 ### Cors
 #### Nos referimos a un mecanismo de seguridad que aplican los navegadores cuando estamos haciendo una petición a un recurso que está alojado en otro origen. Si el recurso está en otro origen, el navegador automáticamente comprobará las cabeceras HTTP buscando una autorización expresa por parte del servidor.
 
+### BrowserModule
+##### Exporta la infraestructura necesaria para todas las aplicaciones de Angular. Incluido de forma predeterminada en todas las aplicaciones Angular creadas con el comando CLI. Re-exportando, haciendo su Exportaciones y proveedores disponibles para todas las aplicaciones.
+
+### AppRoutingModule
+#### Es cargar y configurar el enrutador en un módulo separado y al nivel más alto, que se dedique sólo al enrutamiento y que se importe en AppModule.
+
+### NgbModule
+#### Sirve como marca de una clase que proporciona distintos tipos de componentes como módulos los cuáles se encargan de hechar andar nuestra servicios de Angular, Bootstrap, Express, Morgan y Cors. Para ir haciendo declaraciones al lo largo de nuestra  aplicación.
+
+### HttpClientModule
+#### Puede agregar interceptores a la cadena detrás de HttpClient enlazándolos al multiproveedor para obtener integrado los Token-Di de HTTP_INTERCEPTORS.   
+
+### FormsModule
+#### Exporta los directivos y proveedores necesarios para los formularios basados en plantillas, haciéndolos disponibles para su importación por NgModules que importan este módulo.
+
+### RouterModule
+#### Agrega directivos y proveedores para la navegación en la aplicación entre vistas definidas en una aplicación. Usar el servicio Angular Router para especificar mediante declaración los estados de la aplicación y administrar las transiciones de estado.
+
+### AppModule
+#### Una clase de Appangular describe cómo encajan las partes de la aplicación. Cada aplicación tiene al menos un Appangular, el módulo raíz quearranquepara iniciar la aplicación.
+
 ## Requerimientos
 #### Se necesitaba que se creara una API con datos de jugadores con sus selecciones y regiones, los cuáles se fueron metiendo en constantes en formato JSON para así poder ir creando las rutas que usariamos para buscar la información de cada uno en nuestro Puerto. Dónde se solicitaba los siguientes datos de cada jugador para dar una mejor descripción de cada uno:
 
